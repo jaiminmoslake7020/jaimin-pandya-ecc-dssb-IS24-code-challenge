@@ -1,0 +1,18 @@
+{
+  "type": "sqlite",
+  "database": "server.sqlite",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "src/models/*.ts"
+  ],
+  "seeds": [
+    "src/database/seeds/**/*{.ts,.js}"
+  ],
+  "factories": [
+    "src/database/factories/**/*{.ts,.js}"
+  ],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}

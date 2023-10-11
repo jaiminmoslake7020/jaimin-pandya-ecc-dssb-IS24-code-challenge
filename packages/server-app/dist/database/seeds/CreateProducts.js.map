@@ -1,0 +1,1 @@
+{"version":3,"file":"CreateProducts.js","sourceRoot":"","sources":["../../../src/database/seeds/CreateProducts.ts"],"names":[],"mappings":";;;AAEA,kDAA+C;AAE/C,MAAqB,cAAc;IAE/B,aAAa;IACA,GAAG,CAAC,OAAgB,EAAE,UAAqB;;YACpD,MAAM,OAAO,CAAC,iBAAO,CAAC,EAAE,CAAC,QAAQ,CAAC,EAAE,CAAC,CAAC;QAC1C,CAAC;KAAA;CAEJ;AAPD,iCAOC"}
