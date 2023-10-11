@@ -1,10 +1,11 @@
 # IS-24
 ## Instructions for IS-24 project Installation
 
+Built on Mac, have not tried on windows
 
 RUN with docker
 
-`docker-compose up`
+`docker-compose up` (Recommended for windows user)
 
 OR 
 
