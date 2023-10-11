@@ -1,0 +1,21 @@
+{
+  "name": "ecc-dssb-is24-code-challenge",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "setup:db": "cd packages/server-app/ && npm run db:setup",
+    "start:server": "cd packages/server-app/ && npm run start",
+    "run:web": "cd packages/web && npm run start",
+    "docker:run": "docker-compose up"
+  },
+  "author": {
+    "name": "Jaimin Pandya",
+    "email": "jaiminmoslake7020@gmail.com"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}

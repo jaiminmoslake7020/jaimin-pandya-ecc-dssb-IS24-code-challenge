@@ -1,0 +1,130 @@
+.btn{
+  @apply py-2 px-4 mx-0 text-xs;
+  @apply md:px-4;
+  @apply lg:py-3 lg:px-12 lg:mx-1 lg:text-sm;
+  @apply xl:mx-1 xl:text-base;
+  @apply 2xl:mx-3;
+
+  @apply capitalize rounded font-semibold w-fit;
+
+  &.btn-sm{
+    @apply py-2 px-9 mx-2 capitalize rounded-full font-semibold text-sm;
+  }
+
+  &.btn-xs{
+    @apply py-1 px-6 mx-1 capitalize rounded-full font-semibold text-xs;
+  }
+
+  &.btn-link{
+    @apply px-0 capitalize font-semibold text-blue-400 hover:text-blue-500 m-0;
+  }
+
+  &.btn-disabled{
+    @apply pointer-events-none cursor-not-allowed opacity-50;
+  }
+
+  &[disabled]{
+    @apply pointer-events-none cursor-not-allowed opacity-40;
+  }
+
+
+  &.btn-inverse{
+    @apply bg-transparent border rounded shadow-none px-3 py-2 text-base;
+
+    &.btn-red{
+      @apply bg-transparent text-red-400 border-red-400;
+    }
+
+    &.btn-green{
+      @apply text-green-500 border-green-500 border;
+    }
+
+    &[disabled]{
+      @apply pointer-events-none cursor-not-allowed opacity-40;
+    }
+
+    &.btn-sm{
+      @apply py-2 px-2 mx-2 capitalize font-semibold text-sm;
+    }
+
+    &.btn-xs{
+      @apply py-2 px-2 mx-1 capitalize font-semibold text-[0.8rem] leading-4;
+    }
+
+  }
+
+
+  &.btn-round{
+    @apply px-4 py-3 ;
+
+    &.btn-sm{
+      @apply py-2 px-2 mx-2 capitalize rounded-full font-semibold text-sm;
+    }
+
+    &.btn-xs{
+      @apply py-2 px-2 mx-1 capitalize rounded-full font-semibold text-xs;
+    }
+  }
+
+  &.btn-primary {
+    @apply bg-yellow-400 hover:bg-gray-700 text-indigo-900 hover:text-white shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-75 ;
+  }
+
+  &.btn-link {
+    @apply bg-transparent hover:bg-transparent focus:bg-transparent active:bg-transparent ;
+  }
+
+  &.btn-red {
+    @apply bg-red-400 hover:bg-gray-700 text-slate-50 hover:text-white shadow-md focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-75 ;
+  }
+
+  &.btn-green {
+    @apply bg-green-400 hover:bg-gray-700 text-slate-50 hover:text-white shadow-md focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 ;
+  }
+
+  &.btn-gray {
+    @apply bg-gray-700 hover:bg-gray-800 text-slate-50 hover:text-white shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 ;
+  }
+
+  &.btn-white {
+    @apply bg-slate-200 hover:bg-slate-400 text-gray-700 hover:text-gray-800 shadow-md focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-opacity-75 ;
+  }
+
+  &.btn-blue {
+    @apply bg-blue-400 hover:bg-blue-500 text-white hover:text-gray-100 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-opacity-75 ;
+
+    &.btn-inverse {
+      @apply bg-transparent hover:bg-transparent text-blue-400 hover:text-blue-500 border border-blue-400 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-opacity-75 ;
+    }
+
+  }
+
+  &.btn-orange {
+    @apply bg-orange-400 hover:bg-orange-500 text-slate-50 hover:text-white shadow-md focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-75 ;
+  }
+
+  &.btn-slate {
+    @apply bg-slate-200 hover:bg-slate-500 text-gray-700 hover:text-white shadow-md focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-opacity-75 ;
+  }
+
+}
+
+.btn-row{
+  @apply flex flex-col lg:flex-row gap-3 p-4;
+
+  &.all-end{
+    @apply items-center justify-center lg:justify-end lg:items-center;
+  }
+
+  &.all-start{
+    @apply items-center justify-center lg:justify-end lg:items-center;
+  }
+
+  &.all-apart{
+    @apply items-center justify-center lg:justify-between lg:items-center;
+  }
+}
+
+.btn-icon{
+  @apply text-base mr-3 #{!important};
+}

@@ -1,0 +1,66 @@
+// Variable override,
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts-manrope/static/Manrope-Regular.ttf) format('truetype');
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../assets/fonts-manrope/static/Manrope-Medium.ttf) format('truetype');
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../assets/fonts-manrope/static/Manrope-SemiBold.ttf) format('truetype');
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../assets/fonts-manrope/static/Manrope-Bold.ttf) format('truetype');
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../assets/fonts-manrope/static/Manrope-ExtraBold.ttf) format('truetype');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../assets/fonts-manrope/static/Manrope-ExtraLight.ttf) format('truetype');
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts-manrope/static/Manrope-Light.ttf) format('truetype');
+}
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:  "Manrope";
+//$font-family-sans-serif:  "calibre", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:   SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+// stylelint-enable value-keyword-case
+
+$font-size-base:  1rem !default;
+

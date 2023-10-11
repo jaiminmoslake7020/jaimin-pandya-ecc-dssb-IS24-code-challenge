@@ -1,0 +1,20 @@
+.product-list-table{
+  table{
+    @apply min-w-0 max-w-[380px] md:max-w-[680px] lg:max-w-[100%];
+  }
+  thead{
+    @apply bg-gray-300;
+    tr{
+      th{
+        @apply font-semibold;
+      }
+    }
+  }
+  tbody.tbody{
+    @apply max-h-[10vh] overflow-y-auto;
+  }
+
+  .MuiChip-root{
+    @apply m-1 #{!important};
+  }
+}
